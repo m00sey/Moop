@@ -1,433 +1,0 @@
-TMoopTesting
-v7
-r0
-t302034857.122287
-cCheck dependencies
-cProcessInfoPlistFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Info.plist "Moop-Info copy 2.plist"
-cCpResource build/Debug-iphonesimulator/Moop.app/MoopUnitTests.octest build/Debug-iphonesimulator/MoopUnitTests.octest
-cCompileXIB /Users/kevingriffin/Development/Moop/MainWindow.xib
-cCompileXIB /Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib
-cCompileXIB /Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib
-cProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch.gch Moop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/main.o /Users/kevingriffin/Development/Moop/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/MoopAppDelegate.o /Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/AdderViewController.o /Users/kevingriffin/Development/Moop/Classes/AdderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/NumericAdder.o /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/StringAdder.o /Users/kevingriffin/Development/Moop/Classes/StringAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/ResultViewController.o /Users/kevingriffin/Development/Moop/Classes/ResultViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop normal i386
-cGenerateDSYMFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app.dSYM /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop
-cTouch /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BD236930000000000000110
-t1272067731
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BD1CD90000000000026F020
-t1272040848
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BD1FFC200000000002A96A0
-t1272053698
-s2791072
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BD1FF9E0000000000001355
-t1272053662
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BD20412000000000000098F
-t1272054802
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BD20471000000000222E640
-t1272054897
-s35841600
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C4C65F80000000000000132
-t1280075256
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderViewController.h
-c000000004C4F968600000000000001F6
-t1280284294
-s502
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderViewController.m
-c000000004C4F96A1000000000000075A
-t1280284321
-s1882
-i"AdderViewController.h"
-i"ResultViewController.h"
-i"NumericAdder.h"
-i"StringAdder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib
-c000000004C4F96710000000000006E1C
-t1280284273
-s28188
-
-N/Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.h
-c000000004C49A8AC000000000000018E
-t1279895724
-s398
-i<UIKit/UIKit.h>
-i"AdderViewController.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m
-c000000004C49A9D70000000000000268
-t1279896023
-s616
-i"MoopAppDelegate.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/NumericAdder.h
-c000000004C4DE4710000000000000113
-t1280173169
-s275
-i<Foundation/Foundation.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/NumericAdder.m
-c000000004C4DE475000000000000011C
-t1280173173
-s284
-i"NumericAdder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/ResultViewController.h
-c000000004C4F9501000000000000016F
-t1280283905
-s367
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/ResultViewController.m
-c000000004C4F953A00000000000003F2
-t1280283962
-s1010
-i"ResultViewController.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib
-c000000004C4F96630000000000004F3E
-t1280284259
-s20286
-
-N/Users/kevingriffin/Development/Moop/Classes/StringAdder.h
-c000000004C4DE3680000000000000126
-t1280172904
-s294
-i<Foundation/Foundation.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/StringAdder.m
-c000000004C4DA0380000000000000143
-t1280155704
-s323
-i"StringAdder.h"
-
-N/Users/kevingriffin/Development/Moop/MainWindow.xib
-c000000004C49BC760000000000003D10
-t1279900790
-s15632
-
-N/Users/kevingriffin/Development/Moop/Moop_Prefix.pch
-c000000004C49987200000000000000B1
-t1279891570
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app
-t1280342057
-s306
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app.dSYM
-t1280342057
-s102
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/AdderViewController.nib
-t1280342055
-s2366
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Info.plist
-t1280342055
-s786
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/MainWindow.nib
-t1280342055
-s981
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop
-t1280342057
-s19836
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/MoopUnitTests.octest
-t1280342055
-s102
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/PkgInfo
-t1280342055
-s8
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/ResultViewController.nib
-t1280342056
-s1402
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopUnitTests.octest
-c000000004C5078260000000000000066
-t1280342054
-s102
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/AdderViewController.o
-t1280342056
-s45724
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/Moop.LinkFileList
-c000000004C507827000000000000030F
-t1280342055
-s783
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/MoopAppDelegate.o
-t1280342056
-s45104
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/NumericAdder.o
-t1280342056
-s5984
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/ResultViewController.o
-t1280342057
-s39040
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/StringAdder.o
-t1280342057
-s6352
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/main.o
-t1280342056
-s6300
-
-N/Users/kevingriffin/Development/Moop/main.m
-c000000004C499872000000000000016B
-t1279891570
-s363
-i<UIKit/UIKit.h>
-
-N/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch.gch
-t1280342056
-s15232016
-
-N/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-fpnilvvmcstzbnfyiyksrefkzrka/Moop_Prefix.pch.gch
-t1280331632
-s13825936
-
-NMoop-Info copy 2.plist
-c000000004C502D6C00000000000004AA
-t1280322924
-s1194
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302034855#302034855#0(0"0(0#1#0"8603513728#0"0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/AdderViewController.o /Users/kevingriffin/Development/Moop/Classes/AdderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302034856.842679
-e302034856.967142
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/AdderViewController.o
-x/Users/kevingriffin/Development/Moop/Classes/AdderViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/kevingriffin/Development/Moop/Classes/AdderViewController.m302034856#302034856#0(0"0(0#0#66"/Users/kevingriffin/Development/Moop/Classes/AdderViewController.m8607001664#1906"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch -c /Users/kevingriffin/Development/Moop/Classes/AdderViewController.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/AdderViewController.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/MoopAppDelegate.o /Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302034856.767896
-e302034856.890355
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/MoopAppDelegate.o
-x/Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m302034856#302034856#0(0"0(0#0#62"/Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m8607330656#1898"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch -c /Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/MoopAppDelegate.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/NumericAdder.o /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302034856.890472
-e302034856.963442
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/NumericAdder.o
-x/Users/kevingriffin/Development/Moop/Classes/NumericAdder.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m302034856#302034856#0(0"0(0#0#59"/Users/kevingriffin/Development/Moop/Classes/NumericAdder.m8606963264#1892"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch -c /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/NumericAdder.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/ResultViewController.o /Users/kevingriffin/Development/Moop/Classes/ResultViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302034856.967223
-e302034857.065453
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/ResultViewController.o
-x/Users/kevingriffin/Development/Moop/Classes/ResultViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/kevingriffin/Development/Moop/Classes/ResultViewController.m302034856#302034857#0(0"0(0#0#67"/Users/kevingriffin/Development/Moop/Classes/ResultViewController.m8606556384#1908"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch -c /Users/kevingriffin/Development/Moop/Classes/ResultViewController.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/ResultViewController.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/StringAdder.o /Users/kevingriffin/Development/Moop/Classes/StringAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302034856.963530
-e302034857.052982
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/StringAdder.o
-x/Users/kevingriffin/Development/Moop/Classes/StringAdder.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/kevingriffin/Development/Moop/Classes/StringAdder.m302034856#302034857#0(0"0(0#0#58"/Users/kevingriffin/Development/Moop/Classes/StringAdder.m8606801824#1890"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch -c /Users/kevingriffin/Development/Moop/Classes/StringAdder.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/StringAdder.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/main.o /Users/kevingriffin/Development/Moop/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302034856.766935
-e302034856.842580
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/main.o
-x/Users/kevingriffin/Development/Moop/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/kevingriffin/Development/Moop/main.m302034856#302034856#0(0"0(0#0#43"/Users/kevingriffin/Development/Moop/main.m8607705856#1868"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -include /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch -c /Users/kevingriffin/Development/Moop/main.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib
-s302034855.190064
-e302034855.724152
-r1
-xCompileXIB
-x/Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib
-lSLF07#2@42"CompileXIB Classes/AdderViewController.xib302034855#302034855#0(0"0(0#0#68"/Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib8603968192#587"    cd /Users/kevingriffin/Development/Moop    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/AdderViewController.nib /Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib
-s302034855.631482
-e302034856.043996
-r1
-xCompileXIB
-x/Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib
-lSLF07#2@43"CompileXIB Classes/ResultViewController.xib302034855#302034856#0(0"0(0#0#69"/Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib8606663104#589"    cd /Users/kevingriffin/Development/Moop    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/ResultViewController.nib /Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/kevingriffin/Development/Moop/MainWindow.xib
-s302034855.185144
-e302034855.631397
-r1
-xCompileXIB
-x/Users/kevingriffin/Development/Moop/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib302034855#302034855#0(0"0(0#0#51"/Users/kevingriffin/Development/Moop/MainWindow.xib8604354720#561"    cd /Users/kevingriffin/Development/Moop    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/MainWindow.nib /Users/kevingriffin/Development/Moop/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCpResource build/Debug-iphonesimulator/Moop.app/MoopUnitTests.octest build/Debug-iphonesimulator/MoopUnitTests.octest
-s302034855.184532
-e302034855.189979
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Moop.app/MoopUnitTests.octest
-xbuild/Debug-iphonesimulator/MoopUnitTests.octest
-lSLF07#2@53"Copy build/Debug-iphonesimulator/MoopUnitTests.octest302034855#302034855#0(0"0(0#0#85"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopUnitTests.octest8604434688#483"    cd /Users/kevingriffin/Development/Moop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopUnitTests.octest /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app0#
-
-CGenerateDSYMFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app.dSYM /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop
-s302034857.098849
-e302034857.117128
-r1
-xGenerateDSYMFile
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app.dSYM
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop
-lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Moop.app.dSYM build/Debug-iphonesimulator/Moop.app/Moop302034857#302034857#0(0"0(0#0#78"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop8607483872#368"    cd /Users/kevingriffin/Development/Moop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop -o /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app.dSYM0#
-
-CLd /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop normal i386
-s302034857.065531
-e302034857.098766
-r1
-xLd
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop
-xnormal
-xi386
-lSLF07#2@83"Link /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop302034857#302034857#0(0"0(0#0#0"8606105376#882"    cd /Users/kevingriffin/Development/Moop    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -filelist /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Objects-normal/i386/Moop.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop0#
-
-CProcessInfoPlistFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Info.plist "Moop-Info copy 2.plist"
-s302034855.181264
-e302034855.184467
-r1
-xProcessInfoPlistFile
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Info.plist
-xMoop-Info copy 2.plist
-lSLF07#2@30"Process Moop-Info copy 2.plist302034855#302034855#0(0"0(0#0#59"/Users/kevingriffin/Development/Moop/Moop-Info copy 2.plist8606085568#473"    cd /Users/kevingriffin/Development/Moop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Moop-Info copy 2.plist" -genpkginfo /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Info.plist0#
-
-CProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch.gch Moop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302034856.044104
-e302034856.766732
-r1
-xProcessPCH
-x/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch.gch
-xMoop_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Moop_Prefix.pch302034856#302034856#0(0"0(0#0#52"/Users/kevingriffin/Development/Moop/Moop_Prefix.pch8606958848#1758"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Moop_Prefix.pch -o /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-ezjoajzuoekvucaueorgtqosyzag/Moop_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-fpnilvvmcstzbnfyiyksrefkzrka/Moop_Prefix.pch.gch Moop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302024431.635466
-e302024432.248767
-r1
-xProcessPCH
-x/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-fpnilvvmcstzbnfyiyksrefkzrka/Moop_Prefix.pch.gch
-xMoop_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Moop_Prefix.pch302024431#302024432#0(0"0(0#0#52"/Users/kevingriffin/Development/Moop/Moop_Prefix.pch8620857600#1758"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/Moop-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTesting.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Moop_Prefix.pch -o /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-fpnilvvmcstzbnfyiyksrefkzrka/Moop_Prefix.pch.gch0#
-
-CTouch /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app
-s302034857.117199
-e302034857.122250
-r1
-xTouch
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app
-lSLF07#2@79"Touch /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app302034857#302034857#0(0"0(0#0#0"8607107712#271"    cd /Users/kevingriffin/Development/Moop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app0#
-

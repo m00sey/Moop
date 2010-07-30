@@ -1,625 +1,0 @@
-TMoopTests
-v7
-r0
-t302217907.407234
-cCheck dependencies
-cProcessInfoPlistFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/Info.plist MoopTests-Info.plist
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/Adder.o /Users/kevingriffin/Development/Moop/Classes/Adder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdder.o /Users/kevingriffin/Development/Moop/Classes/StringAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdder.o /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o /Users/kevingriffin/Development/Moop/Classes/../NumericAdderTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/AdderTests.o /Users/kevingriffin/Development/Moop/Classes/AdderTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdderTests.o /Users/kevingriffin/Development/Moop/Classes/StringAdderTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests normal i386
-cGenerateDSYMFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest.dSYM /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests
-cPhaseScriptExecution "Run Script" /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C6241201D44B00227222.sh
-cTouch /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BD236930000000000000110
-t1272067731
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BD1CD90000000000026F020
-t1272040848
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BD1FFC200000000002A96A0
-t1272053698
-s2791072
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BD1FF9E0000000000001355
-t1272053662
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BD20412000000000000098F
-t1272054802
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BD20471000000000222E640
-t1272054897
-s35841600
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C51ABAB0000000000000132
-t1280420779
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
-c000000004BFE177E00000000000008A5
-t1274943358
-s2213
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Users/kevingriffin/Development/Moop/Classes/../NumericAdderTests.m
-c000000004C520ED70000000000000232
-t1280446167
-s562
-i"NumericAdderTests.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/Adder.h
-c000000004C521DF40000000000000157
-t1280450036
-s343
-i<Foundation/Foundation.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/Adder.m
-c000000004C52C3660000000000000325
-t1280492390
-s805
-i"Adder.h"
-i"NumericAdder.h"
-i"StringAdder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderTests.h
-c000000004C521FC40000000000000090
-t1280450500
-s144
-i<SenTestingKit/SenTestingKit.h>
-i<UIKit/UIKit.h>
-i"Adder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderTests.m
-c000000004C53433200000000000000C5
-t1280525106
-s197
-i"AdderTests.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderViewController.h
-c000000004C4F968600000000000001F6
-t1280284294
-s502
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderViewController.m
-c000000004C4F96A1000000000000075A
-t1280284321
-s1882
-i"AdderViewController.h"
-i"ResultViewController.h"
-i"NumericAdder.h"
-i"StringAdder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib
-c000000004C4F96710000000000006E1C
-t1280284273
-s28188
-
-N/Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.h
-c000000004C49A8AC000000000000018E
-t1279895724
-s398
-i<UIKit/UIKit.h>
-i"AdderViewController.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m
-c000000004C49A9D70000000000000268
-t1279896023
-s616
-i"MoopAppDelegate.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/NumericAdder.h
-c000000004C521CF90000000000000113
-t1280449785
-s275
-i<Foundation/Foundation.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/NumericAdder.m
-c000000004C5215AF000000000000011C
-t1280447919
-s284
-i"NumericAdder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/ResultViewController.h
-c000000004C4F9501000000000000016F
-t1280283905
-s367
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/ResultViewController.m
-c000000004C4F953A00000000000003F2
-t1280283962
-s1010
-i"ResultViewController.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib
-c000000004C4F96630000000000004F3E
-t1280284259
-s20286
-
-N/Users/kevingriffin/Development/Moop/Classes/StringAdder.h
-c000000004C521CF20000000000000124
-t1280449778
-s292
-i<Foundation/Foundation.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/StringAdder.m
-c000000004C4DA0380000000000000143
-t1280155704
-s323
-i"StringAdder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/StringAdderTests.h
-c000000004C521FA100000000000000A8
-t1280450465
-s168
-i<SenTestingKit/SenTestingKit.h>
-i<UIKit/UIKit.h>
-i"StringAdder.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/StringAdderTests.m
-c000000004C52C5EC000000000000034E
-t1280493036
-s846
-i"StringAdderTests.h"
-
-N/Users/kevingriffin/Development/Moop/Classes/untitled.h
-c000000004C5045D90000000000000382
-t1280329177
-s898
-i<SenTestingKit/SenTestingKit.h>
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/Classes/untitled.m
-c000000004C5045D900000000000002BF
-t1280329177
-s703
-i"untitled.h"
-
-N/Users/kevingriffin/Development/Moop/MainWindow.xib
-c000000004C49BC760000000000003D10
-t1279900790
-s15632
-
-N/Users/kevingriffin/Development/Moop/Moop_Prefix.pch
-c000000004C49987200000000000000B1
-t1279891570
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/NumericAdderTestCase.h
-c000000004C51E6420000000000000077
-t1280435778
-s119
-i<SenTestingKit/SenTestingKit.h>
-i<UIKit/UIKit.h>
-
-N/Users/kevingriffin/Development/Moop/NumericAdderTestCase.m
-c000000004C51E65D0000000000000084
-t1280435805
-s132
-i"NumericAdderTestCase.h"
-
-N/Users/kevingriffin/Development/Moop/NumericAdderTests.h
-c000000004C51EDE400000000000000AE
-t1280437732
-s174
-i<SenTestingKit/SenTestingKit.h>
-i<UIKit/UIKit.h>
-i"NumericAdder.h"
-
-N/Users/kevingriffin/Development/Moop/NumericAdderTests.m
-c000000004C51E696000000000000007E
-t1280435862
-s126
-i"NumericAdderTestCase.h"
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app
-t1280323720
-s306
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app.dSYM
-t1280284322
-s102
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/AdderViewController.nib
-t1280284300
-s2375
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Info.plist
-t1280323720
-s786
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/MainWindow.nib
-t1280076361
-s981
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop
-t1280284322
-s20164
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/MoopUnitTests.octest
-t2
-s0
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/PkgInfo
-t1280323720
-s8
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/ResultViewController.nib
-t1280284300
-s1402
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest
-t1280525107
-s136
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest.dSYM
-t1280525107
-s102
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/Info.plist
-t1280439224
-s476
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests
-t1280525107
-s22744
-
-N/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopUnitTests.octest
-c000000004C5030610000000000000088
-t1280323681
-s136
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/Adder.o
-t1280525107
-s10136
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/AdderTests.o
-t1280525106
-s5272
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/AdderViewController.o
-t2
-s0
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/Moop.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/MoopAppDelegate.o
-t2
-s0
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/MoopTests.LinkFileList
-c000000004C5221AB00000000000002F9
-t1280450987
-s761
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdder.o
-t1280449785
-s5984
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTestCase.o
-t1280435816
-s9084
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o
-t1280449785
-s15904
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/ResultViewController.o
-t2
-s0
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdder.o
-t1280450987
-s6352
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdderTests.o
-t1280493037
-s15808
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/untitled.o
-t2
-s0
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C5E51201CEED00227222.sh
-c000000004C5197830000000000000062
-t1280415619
-s98
-
-N/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C6241201D44B00227222.sh
-c000000004C519CD80000000000000062
-t1280416984
-s98
-
-N/Users/kevingriffin/Development/Moop/main.m
-c000000004C499872000000000000016B
-t1279891570
-s363
-i<UIKit/UIKit.h>
-
-N/var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-fpnilvvmcstzbnfyiyksrefkzrka/Moop_Prefix.pch.gch
-t1280076363
-s13825936
-
-NMoop-Info copy 2.plist
-c000000004C502D6C00000000000004AA
-t1280322924
-s1194
-
-NMoopTests-Info.plist
-c000000004C51F2510000000000000286
-t1280438865
-s646
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302217906#302217907#0(0"0(0#1#0"8605042080#0"0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/Adder.o /Users/kevingriffin/Development/Moop/Classes/Adder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302217906.996125
-e302217907.118337
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/Adder.o
-x/Users/kevingriffin/Development/Moop/Classes/Adder.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/kevingriffin/Development/Moop/Classes/Adder.m302217906#302217907#0(0"0(0#0#52"/Users/kevingriffin/Development/Moop/Classes/Adder.m8608172608#1930"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Classes/Adder.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/Adder.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/AdderTests.o /Users/kevingriffin/Development/Moop/Classes/AdderTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302217906.997104
-e302217906.997895
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/AdderTests.o
-x/Users/kevingriffin/Development/Moop/Classes/AdderTests.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/kevingriffin/Development/Moop/Classes/AdderTests.m302217906#302217907#0(0"0(0#0#57"/Users/kevingriffin/Development/Moop/Classes/AdderTests.m8608209632#1940"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Classes/AdderTests.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/AdderTests.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/AdderViewController.o /Users/kevingriffin/Development/Moop/Classes/AdderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/MoopAppDelegate.o /Users/kevingriffin/Development/Moop/Classes/MoopAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdder.o /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302142585.747306
-e302142585.897596
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdder.o
-x/Users/kevingriffin/Development/Moop/Classes/NumericAdder.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m302142585#302142585#0(0"0(0#0#59"/Users/kevingriffin/Development/Moop/Classes/NumericAdder.m8622905216#1944"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Classes/NumericAdder.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdder.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTestCase.o /Users/kevingriffin/Development/Moop/NumericAdderTestCase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302128616.048862
-e302128616.245388
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTestCase.o
-x/Users/kevingriffin/Development/Moop/NumericAdderTestCase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/kevingriffin/Development/Moop/NumericAdderTestCase.m302128616#302128616#0(0"0(0#0#59"/Users/kevingriffin/Development/Moop/NumericAdderTestCase.m7885925458875147264#1952"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/NumericAdderTestCase.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTestCase.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o /Users/kevingriffin/Development/Moop/Classes/../NumericAdderTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302142585.748160
-e302142585.960568
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o
-x/Users/kevingriffin/Development/Moop/Classes/../NumericAdderTests.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/kevingriffin/Development/Moop/Classes/../NumericAdderTests.m302142585#302142585#0(0"0(0#0#67"/Users/kevingriffin/Development/Moop/Classes/../NumericAdderTests.m8622689312#1957"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Classes/../NumericAdderTests.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o /Users/kevingriffin/Development/Moop/NumericAdderTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302128663.724525
-e302128663.744672
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o
-x/Users/kevingriffin/Development/Moop/NumericAdderTests.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/kevingriffin/Development/Moop/NumericAdderTests.m302128663#302128663#0(0"0(0#0#56"/Users/kevingriffin/Development/Moop/NumericAdderTests.m8606755200#1946"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/NumericAdderTests.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/NumericAdderTests.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/ResultViewController.o /Users/kevingriffin/Development/Moop/Classes/ResultViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdder.o /Users/kevingriffin/Development/Moop/Classes/StringAdder.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302143787.569077
-e302143787.709223
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdder.o
-x/Users/kevingriffin/Development/Moop/Classes/StringAdder.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/kevingriffin/Development/Moop/Classes/StringAdder.m302143787#302143787#0(0"0(0#0#58"/Users/kevingriffin/Development/Moop/Classes/StringAdder.m8610977984#1942"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Classes/StringAdder.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdder.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdderTests.o /Users/kevingriffin/Development/Moop/Classes/StringAdderTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302217897.621988
-e302217897.646522
-r1
-xCompileC
-xbuild/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdderTests.o
-x/Users/kevingriffin/Development/Moop/Classes/StringAdderTests.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/kevingriffin/Development/Moop/Classes/StringAdderTests.m302217897#302217897#0(0"0(0#0#63"/Users/kevingriffin/Development/Moop/Classes/StringAdderTests.m8319383698887823360#1952"    cd /Users/kevingriffin/Development/Moop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-generated-files.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-own-target-headers.hmap -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-all-target-headers.hmap -iquote /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-project-headers.hmap -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -I/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources/i386 -I/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources -c /Users/kevingriffin/Development/Moop/Classes/StringAdderTests.m -o /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/StringAdderTests.o0#
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/main.o /Users/kevingriffin/Development/Moop/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/untitled.o /Users/kevingriffin/Development/Moop/Classes/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileXIB /Users/kevingriffin/Development/Moop/Classes/AdderViewController.xib
-r0
-
-CCompileXIB /Users/kevingriffin/Development/Moop/Classes/ResultViewController.xib
-r0
-
-CCompileXIB /Users/kevingriffin/Development/Moop/MainWindow.xib
-r0
-
-CCpResource build/Debug-iphonesimulator/Moop.app/MoopUnitTests.octest build/Debug-iphonesimulator/MoopUnitTests.octest
-r0
-
-CGenerateDSYMFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app.dSYM /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop
-r0
-
-CGenerateDSYMFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest.dSYM /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests
-s302217907.177501
-e302217907.213014
-r1
-xGenerateDSYMFile
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest.dSYM
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests
-lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/MoopTests.octest.dSYM build/Debug-iphonesimulator/MoopTests.octest/MoopTests302217907#302217907#0(0"0(0#0#91"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests8606492352#389"    cd /Users/kevingriffin/Development/Moop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests -o /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest.dSYM0#
-
-CLd /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Moop normal i386
-r0
-
-CLd /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests normal i386
-s302217907.118428
-e302217907.177405
-r1
-xLd
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests
-xnormal
-xi386
-lSLF07#2@96"Link /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests302217907#302217907#0(0"0(0#0#0"8607942784#1137"    cd /Users/kevingriffin/Development/Moop    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks -filelist /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/MoopTests.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework SenTestingKit -framework UIKit -Xlinker -objc_abi_version -Xlinker 2 -o /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/MoopTests0#
-
-CPhaseScriptExecution "Run Script" /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C5E51201CEED00227222.sh
-s302108537.114453
-e302108537.251701
-r0
-xPhaseScriptExecution
-xRun Script
-x/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C5E51201CEED00227222.sh
-o/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'i386'
-o/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)
-o2010-07-29 11:02:17.245 otest[2307:903] The executable for the test bundle at /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest could not be found.
-o/Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)
-o/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'i386'
-lSLF07#2@36"Run custom shell script 'Run Script'302108537#302108537#1(20@47"Run unit tests for architecture 'i386' (GC OFF)302108537#302108537#0(388"/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)2010-07-29 11:02:17.245 otest[2307:903] The executable for the test bundle at /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest could not be found./Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)1(4@45"Failed tests for architecture 'i386' (GC OFF)302108537#18446744073709551615#0#0(6@0"302108537#0#0#0#0#0"0(0#0#0"0"103"/Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)0"622"/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'i386'/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)2010-07-29 11:02:17.245 otest[2307:903] The executable for the test bundle at /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest could not be found./Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'i386'Command /bin/sh failed with exit code 11(4@39"Command /bin/sh failed with exit code 1302108537#18446744073709551615#0#0(1@0"0(0#0#0"8619814432#17100"    cd /Users/kevingriffin/Development/Moop    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevingriffin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevingriffin/Development/Moop/build    setenv BUILD_ROOT /Users/kevingriffin/Development/Moop/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH MoopTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Moop.dst    setenv DWARF_DSYM_FILE_NAME MoopTests.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MoopTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH MoopTests.octest    setenv EXECUTABLE_NAME MoopTests    setenv EXECUTABLE_PATH MoopTests.octest/MoopTests    setenv FILE_LIST /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MoopTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MoopTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE MoopTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH MoopTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/Moop.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevingriffin    setenv INSTALL_ROOT /tmp/Moop.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MoopTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/MoopTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal    setenv OBJROOT /Users/kevingriffin/Development/Moop/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework SenTestingKit -framework UIKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MoopTests.octest/pbdevelopment.plist    setenv PHONEGAPLIB /Users/kevingriffin/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/PkgInfo    setenv PKGINFO_PATH MoopTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH MoopTests.octest/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MoopTests.octest/PrivateHeaders    setenv PRODUCT_NAME MoopTests    setenv PRODUCT_SETTINGS_PATH /Users/kevingriffin/Development/Moop/MoopTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT Moop    setenv PROJECT_DERIVED_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/DerivedSources    setenv PROJECT_DIR /Users/kevingriffin/Development/Moop    setenv PROJECT_FILE_PATH /Users/kevingriffin/Development/Moop/Moop.xcodeproj    setenv PROJECT_NAME Moop    setenv PROJECT_TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build    setenv PUBLIC_HEADERS_FOLDER_PATH MoopTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MoopTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk    setenv SDK_NAME iphonesimulator4.0    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MoopTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MoopTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/kevingriffin/Development/Moop    setenv SRCROOT /Users/kevingriffin/Development/Moop    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/SymbolRepositories    setenv SYMROOT /Users/kevingriffin/Development/Moop/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME MoopTests    setenv TARGET_BUILD_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv TARGET_NAME MoopTests    setenv TARGET_TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_FILES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_ROOT /Users/kevingriffin/Development/Moop/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MoopTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevingriffin    setenv USER_APPS_DIR /Users/kevingriffin/Applications    setenv USER_LIBRARY_DIR /Users/kevingriffin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MoopTests.octest/version.plist    setenv VERSION_INFO_BUILDER kevingriffin    setenv VERSION_INFO_FILE MoopTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MoopTests  PROJECT:Moop-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME MoopTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C5E51201CEED00227222.sh1#
-
-CPhaseScriptExecution "Run Script" /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C6241201D44B00227222.sh
-s302217907.213111
-e302217907.404880
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C6241201D44B00227222.sh
-o/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'i386'
-o/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oTest Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' started at 2010-07-30 17:25:07 -0400
-oTest Suite 'AdderTests' started at 2010-07-30 17:25:07 -0400
-oTest Suite 'AdderTests' finished at 2010-07-30 17:25:07 -0400.
-oExecuted 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
-o
-oTest Suite 'NumericAdderTests' started at 2010-07-30 17:25:07 -0400
-oTest Case '-[NumericAdderTests testCanary]' started.
-oTest Case '-[NumericAdderTests testCanary]' passed (0.000 seconds).
-oTest Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' started.
-oTest Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' passed (0.000 seconds).
-oTest Suite 'NumericAdderTests' finished at 2010-07-30 17:25:07 -0400.
-oExecuted 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
-o
-oTest Suite 'StringAdderTests' started at 2010-07-30 17:25:07 -0400
-oTest Case '-[StringAdderTests testCanary]' started.
-oTest Case '-[StringAdderTests testCanary]' passed (0.000 seconds).
-oTest Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' started.
-oTest Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' passed (0.000 seconds).
-oTest Suite 'StringAdderTests' finished at 2010-07-30 17:25:07 -0400.
-oExecuted 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
-o
-oTest Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' finished at 2010-07-30 17:25:07 -0400.
-oExecuted 4 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds
-o
-o/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'i386' (GC OFF)
-o/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'i386'
-lSLF07#2@36"Run custom shell script 'Run Script'302217907#302217907#1(20@47"Run unit tests for architecture 'i386' (GC OFF)302217907#302217907#1(20@103"Run test suite /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)302217907#302217907#3(20@25"Run test suite AdderTests302217907#302217907#0(198"Test Suite 'AdderTests' started at 2010-07-30 17:25:07 -0400Test Suite 'AdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds0(0#0#23"0 out of 0 tests passed13"0.000 seconds73"Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds10"AdderTests20@32"Run test suite NumericAdderTests302217907#302217907#2(20@24"Run test case testCanary302217907#302217907#0(121"Test Case '-[NumericAdderTests testCanary]' started.Test Case '-[NumericAdderTests testCanary]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds67"Test Case '-[NumericAdderTests testCanary]' passed (0.000 seconds).10"testCanary20@46"Run test case testShouldCorrectlyAddTwoNumbers302217907#302217907#0(165"Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' started.Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds89"Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' passed (0.000 seconds).32"testShouldCorrectlyAddTwoNumbers498"Test Suite 'NumericAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[NumericAdderTests testCanary]' started.Test Case '-[NumericAdderTests testCanary]' passed (0.000 seconds).Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' started.Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' passed (0.000 seconds).Test Suite 'NumericAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds0(0#0#23"2 out of 2 tests passed13"0.000 seconds73"Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds17"NumericAdderTests20@31"Run test suite StringAdderTests302217907#302217907#2(20@24"Run test case testCanary302217907#302217907#0(119"Test Case '-[StringAdderTests testCanary]' started.Test Case '-[StringAdderTests testCanary]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds66"Test Case '-[StringAdderTests testCanary]' passed (0.000 seconds).10"testCanary20@46"Run test case testShouldCorrectlyAddTwoStrings302217907#302217907#0(163"Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' started.Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds88"Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' passed (0.000 seconds).32"testShouldCorrectlyAddTwoStrings492"Test Suite 'StringAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[StringAdderTests testCanary]' started.Test Case '-[StringAdderTests testCanary]' passed (0.000 seconds).Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' started.Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' passed (0.000 seconds).Test Suite 'StringAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds0(0#0#23"2 out of 2 tests passed13"0.000 seconds73"Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds16"StringAdderTests1545"Test Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' started at 2010-07-30 17:25:07 -0400Test Suite 'AdderTests' started at 2010-07-30 17:25:07 -0400Test Suite 'AdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite 'NumericAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[NumericAdderTests testCanary]' started.Test Case '-[NumericAdderTests testCanary]' passed (0.000 seconds).Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' started.Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' passed (0.000 seconds).Test Suite 'NumericAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite 'StringAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[StringAdderTests testCanary]' started.Test Case '-[StringAdderTests testCanary]' passed (0.000 seconds).Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' started.Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' passed (0.000 seconds).Test Suite 'StringAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' finished at 2010-07-30 17:25:07 -0400.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds0(0#0#23"4 out of 4 tests passed13"0.003 seconds73"Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds88"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)1921"/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Test Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' started at 2010-07-30 17:25:07 -0400Test Suite 'AdderTests' started at 2010-07-30 17:25:07 -0400Test Suite 'AdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite 'NumericAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[NumericAdderTests testCanary]' started.Test Case '-[NumericAdderTests testCanary]' passed (0.000 seconds).Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' started.Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' passed (0.000 seconds).Test Suite 'NumericAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite 'StringAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[StringAdderTests testCanary]' started.Test Case '-[StringAdderTests testCanary]' passed (0.000 seconds).Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' started.Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' passed (0.000 seconds).Test Suite 'StringAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' finished at 2010-07-30 17:25:07 -0400.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'i386' (GC OFF)0(0#0#0"0"102"/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'i386' (GC OFF)0"2115"/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'i386'/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Test Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' started at 2010-07-30 17:25:07 -0400Test Suite 'AdderTests' started at 2010-07-30 17:25:07 -0400Test Suite 'AdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite 'NumericAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[NumericAdderTests testCanary]' started.Test Case '-[NumericAdderTests testCanary]' passed (0.000 seconds).Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' started.Test Case '-[NumericAdderTests testShouldCorrectlyAddTwoNumbers]' passed (0.000 seconds).Test Suite 'NumericAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite 'StringAdderTests' started at 2010-07-30 17:25:07 -0400Test Case '-[StringAdderTests testCanary]' started.Test Case '-[StringAdderTests testCanary]' passed (0.000 seconds).Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' started.Test Case '-[StringAdderTests testShouldCorrectlyAddTwoStrings]' passed (0.000 seconds).Test Suite 'StringAdderTests' finished at 2010-07-30 17:25:07 -0400.Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.000) secondsTest Suite '/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest(Tests)' finished at 2010-07-30 17:25:07 -0400.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'i386' (GC OFF)/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'i386'0(0#0#0"8599033664#17143"    cd /Users/kevingriffin/Development/Moop    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevingriffin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevingriffin/Development/Moop/build    setenv BUILD_ROOT /Users/kevingriffin/Development/Moop/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH MoopTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Moop.dst    setenv DWARF_DSYM_FILE_NAME MoopTests.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MoopTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH MoopTests.octest    setenv EXECUTABLE_NAME MoopTests    setenv EXECUTABLE_PATH MoopTests.octest/MoopTests    setenv FILE_LIST /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MoopTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MoopTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30200"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE MoopTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH MoopTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/Moop.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevingriffin    setenv INSTALL_ROOT /tmp/Moop.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MoopTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/MoopTests-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal/i386/MoopTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Objects-normal    setenv OBJROOT /Users/kevingriffin/Development/Moop/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework SenTestingKit -framework UIKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MoopTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/kevingriffin/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/PkgInfo    setenv PKGINFO_PATH MoopTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH MoopTests.octest/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MoopTests.octest/PrivateHeaders    setenv PRODUCT_NAME MoopTests    setenv PRODUCT_SETTINGS_PATH /Users/kevingriffin/Development/Moop/MoopTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT Moop    setenv PROJECT_DERIVED_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/DerivedSources    setenv PROJECT_DIR /Users/kevingriffin/Development/Moop    setenv PROJECT_FILE_PATH /Users/kevingriffin/Development/Moop/Moop.xcodeproj    setenv PROJECT_NAME Moop    setenv PROJECT_TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build    setenv PUBLIC_HEADERS_FOLDER_PATH MoopTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MoopTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk    setenv SDK_NAME iphonesimulator4.0    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MoopTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MoopTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/kevingriffin/Development/Moop    setenv SRCROOT /Users/kevingriffin/Development/Moop    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/SymbolRepositories    setenv SYMROOT /Users/kevingriffin/Development/Moop/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME MoopTests    setenv TARGET_BUILD_DIR /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator    setenv TARGET_NAME MoopTests    setenv TARGET_TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_FILES_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_FILE_DIR /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build    setenv TEMP_ROOT /Users/kevingriffin/Development/Moop/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MoopTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevingriffin    setenv USER_APPS_DIR /Users/kevingriffin/Applications    setenv USER_LIBRARY_DIR /Users/kevingriffin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MoopTests.octest/version.plist    setenv VERSION_INFO_BUILDER kevingriffin    setenv VERSION_INFO_FILE MoopTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MoopTests  PROJECT:Moop-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME MoopTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/kevingriffin/Development/Moop/build/Moop.build/Debug-iphonesimulator/MoopTests.build/Script-0129C6241201D44B00227222.sh0#
-
-CProcessInfoPlistFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app/Info.plist "Moop-Info copy 2.plist"
-r0
-
-CProcessInfoPlistFile /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/Info.plist MoopTests-Info.plist
-s302132024.326383
-e302132024.395687
-r1
-xProcessInfoPlistFile
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/Info.plist
-xMoopTests-Info.plist
-lSLF07#2@28"Process MoopTests-Info.plist302132024#302132024#0(0"0(0#0#57"/Users/kevingriffin/Development/Moop/MoopTests-Info.plist28429445101453416#383"    cd /Users/kevingriffin/Development/Moop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MoopTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest/Info.plist0#
-
-CProcessPCH /var/folders/5W/5WNvqL7dFzmKsSHrAMpjAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Moop_Prefix-fpnilvvmcstzbnfyiyksrefkzrka/Moop_Prefix.pch.gch Moop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CTouch /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/Moop.app
-r0
-
-CTouch /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest
-s302217907.404953
-e302217907.407209
-r1
-xTouch
-x/Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest
-lSLF07#2@87"Touch /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest302217907#302217907#0(0"0(0#0#0"8606700928#279"    cd /Users/kevingriffin/Development/Moop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevingriffin/Development/Moop/build/Debug-iphonesimulator/MoopTests.octest0#
-

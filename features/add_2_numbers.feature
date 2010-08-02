@@ -7,4 +7,9 @@ Feature: Adding two numbers together
         # Given "Moop.xcodeproj" is loaded in the simulator
 
     Scenario: Adding 2 numbers
-			Then I should see "Go Adder, Go!"
+			When I type "2" in "termA"
+			And I type "3" in "termB"
+			And I tap "Add"
+			# Then I wait
+			Then  I should see "Result"
+			And I should see "5"

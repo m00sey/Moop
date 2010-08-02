@@ -97,9 +97,9 @@
 	};
 	01008F3F120256F3001B771B /* StringAdderTests.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1144, 588}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1144, 532}}";
 			sepNavSelRange = "{200, 0}";
-			sepNavVisRange = "{0, 877}";
+			sepNavVisRange = "{0, 797}";
 		};
 	};
 	01008F5A12025892001B771B /* PBXTextBookmark */ = {
@@ -220,23 +220,24 @@
 		vrLen = 936;
 		vrLoc = 145;
 	};
-	0164AF7B12063C6200F983ED /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'OCMockObject' undeclared (first use in this function)";
-		fRef = 01008F3F120256F3001B771B /* StringAdderTests.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 24;
-		rType = 1;
-	};
-	0164AF801206444A00F983ED /* PBXTextBookmark */ = {
+	018D9FE21206450900D3A905 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 01008F3F120256F3001B771B /* StringAdderTests.m */;
 		name = "StringAdderTests.m: 10";
 		rLen = 0;
 		rLoc = 200;
 		rType = 0;
-		vrLen = 877;
+		vrLen = 416;
+		vrLoc = 0;
+	};
+	018D9FEA1206452B00D3A905 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 01008F3F120256F3001B771B /* StringAdderTests.m */;
+		name = "StringAdderTests.m: 10";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 797;
 		vrLoc = 0;
 	};
 	019E704B120476F5000CA7A3 /* PBXTextBookmark */ = {
@@ -478,7 +479,7 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 01BC4B9511F9CFF200615A18 /* Moop */;
 		activeSDKPreference = iphonesimulator4.0;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* Moop */;
+		activeTarget = 0129C6251201D44B00227222 /* MoopTests */;
 		addToTargets = (
 			0129C6251201D44B00227222 /* MoopTests */,
 		);
@@ -629,8 +630,8 @@
 					PBXFileDataSource_SCM_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 302395773;
-			PBXWorkspaceStateSaveDate = 302395773;
+			PBXPerProjectTemplateStateSaveDate = 302400674;
+			PBXWorkspaceStateSaveDate = 302400674;
 		};
 		perUserProjectItems = {
 			01008F0212025234001B771B /* PBXTextBookmark */ = 01008F0212025234001B771B /* PBXTextBookmark */;
@@ -647,8 +648,8 @@
 			0139499D120382BB001DD943 /* PBXTextBookmark */ = 0139499D120382BB001DD943 /* PBXTextBookmark */;
 			015CEF5A11FE30A600C372FE /* PBXTextBookmark */ = 015CEF5A11FE30A600C372FE /* PBXTextBookmark */;
 			0164AF7A12063C6200F983ED /* PBXTextBookmark */ = 0164AF7A12063C6200F983ED /* PBXTextBookmark */;
-			0164AF7B12063C6200F983ED /* XCBuildMessageTextBookmark */ = 0164AF7B12063C6200F983ED /* XCBuildMessageTextBookmark */;
-			0164AF801206444A00F983ED /* PBXTextBookmark */ = 0164AF801206444A00F983ED /* PBXTextBookmark */;
+			018D9FE21206450900D3A905 /* PBXTextBookmark */ = 018D9FE21206450900D3A905 /* PBXTextBookmark */;
+			018D9FEA1206452B00D3A905 /* PBXTextBookmark */ = 018D9FEA1206452B00D3A905 /* PBXTextBookmark */;
 			019E704B120476F5000CA7A3 /* PBXTextBookmark */ = 019E704B120476F5000CA7A3 /* PBXTextBookmark */;
 			01A9DDEC12023D6E00465C74 /* PBXBookmark */ = 01A9DDEC12023D6E00465C74 /* PBXBookmark */;
 			01DFB63C1205D6E500BF6705 /* PBXTextBookmark */ = 01DFB63C1205D6E500BF6705 /* PBXTextBookmark */;

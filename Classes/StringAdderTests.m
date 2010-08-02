@@ -7,6 +7,7 @@
 //
 
 #import "StringAdderTests.h"
+#import <OCMock/OCMock.h>
 
 @implementation StringAdderTests
 
@@ -20,6 +21,8 @@
 }
 
 - (void) testShouldCorrectlyAddTwoStrings {
+	
+	id myMock = [OCMockObject mockForClass:[StringAdder class]];
 	
 	NSString * const kTermA = [NSString stringWithString:@"a"];
 	NSString * const kTermB = [NSString stringWithString:@"b"];

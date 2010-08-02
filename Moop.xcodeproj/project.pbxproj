@@ -13,10 +13,12 @@
 		0129C63E1201D51700227222 /* NumericAdderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0129C63D1201D51700227222 /* NumericAdderTests.m */; };
 		01499240120258D300E129F5 /* Adder.m in Sources */ = {isa = PBXBuildFile; fileRef = 01008F0B1202548A001B771B /* Adder.m */; };
 		01499241120258D400E129F5 /* StringAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F51EA211FDCF2C00ECD1E3 /* StringAdder.m */; };
+		0164AF6B12063BEB00F983ED /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFB6371205D0C400BF6705 /* libOCMock.a */; };
 		01A97DAD12022759004E41EC /* NumericAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BC4C3711F9EAB400615A18 /* NumericAdder.m */; };
 		01BC4BAE11F9DCE700615A18 /* AdderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BC4BAC11F9DCE700615A18 /* AdderViewController.m */; };
 		01BC4BAF11F9DCE700615A18 /* AdderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BC4BAD11F9DCE700615A18 /* AdderViewController.xib */; };
 		01BC4C3811F9EAB400615A18 /* NumericAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BC4C3711F9EAB400615A18 /* NumericAdder.m */; };
+		01DFB6381205D0C400BF6705 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFB6371205D0C400BF6705 /* libOCMock.a */; };
 		01F51EA311FDCF2C00ECD1E3 /* StringAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F51EA211FDCF2C00ECD1E3 /* StringAdder.m */; };
 		01F75ACD11FFBCBE005C9B64 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F75ACB11FFBCBE005C9B64 /* ResultViewController.m */; };
 		01F75ACE11FFBCBE005C9B64 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F75ACC11FFBCBE005C9B64 /* ResultViewController.xib */; };
@@ -54,6 +56,7 @@
 		01BC4BAD11F9DCE700615A18 /* AdderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AdderViewController.xib; path = Classes/AdderViewController.xib; sourceTree = "<group>"; };
 		01BC4C3611F9EAB400615A18 /* NumericAdder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericAdder.h; sourceTree = "<group>"; };
 		01BC4C3711F9EAB400615A18 /* NumericAdder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericAdder.m; sourceTree = "<group>"; };
+		01DFB6371205D0C400BF6705 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		01F51EA111FDCF2C00ECD1E3 /* StringAdder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringAdder.h; sourceTree = "<group>"; };
 		01F51EA211FDCF2C00ECD1E3 /* StringAdder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringAdder.m; sourceTree = "<group>"; };
 		01F75ACA11FFBCBE005C9B64 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DFB6381205D0C400BF6705 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0164AF6B12063BEB00F983ED /* libOCMock.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01DFB6361205CF4200BF6705 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				01DFB6371205D0C400BF6705 /* libOCMock.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		01FE85C512007C9500AB4BE7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +150,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				01FE85C512007C9500AB4BE7 /* Tests */,
 				080E96DDFE201D6D7F000001 /* Classes */,
+				01FE85C512007C9500AB4BE7 /* Tests */,
+				01DFB6361205CF4200BF6705 /* Libraries */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -322,12 +336,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "MoopTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -353,10 +372,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				INFOPLIST_FILE = "MoopTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -383,6 +407,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Moop_Prefix.pch;
 				INFOPLIST_FILE = "Moop-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = Moop;
 			};
 			name = Debug;
@@ -395,6 +423,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Moop_Prefix.pch;
 				INFOPLIST_FILE = "Moop-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = Moop;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,6 +441,11 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-OjbC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -425,6 +462,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-OjbC",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = 2;

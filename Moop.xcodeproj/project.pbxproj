@@ -391,6 +391,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Moop;
+				SDKROOT = iphonesimulator4.0;
 			};
 			name = Debug;
 		};

@@ -10,6 +10,6 @@ Feature: Adding two numbers together
 			When I type "2" in "termA"
 			And I type "3" in "termB"
 			And I tap "Add"
-			# Then I wait
+			Then I wait for 1.0 second
 			Then  I should see "Result"
 			And I should see "5"

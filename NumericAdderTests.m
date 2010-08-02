@@ -19,7 +19,7 @@
 
 	int actual = [numericAdder add:kTermA
 				   withAnotherTerm:kTermB];
-    STAssertEquals(kExcpectedResult, actual, @"Incorrectly added terms");
+    STAssertEquals(1, actual, @"Incorrectly added terms");
 }
 
 - (void) testCanary {
